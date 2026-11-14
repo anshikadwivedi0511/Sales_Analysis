@@ -30,4 +30,17 @@ The dataset is **messy** and needs cleaning before any analysis can be done. The
 
 ## Data Cleaning Log
 
-*(To be filled in as the cleaning progresses.)*
+### Step 1: Understanding the data
+Reviewed every column to understand what kind of data it holds and what type it should be (for example, IDs and Quantity as whole numbers, Price as currency, Order_Date as a date).
+
+### Step 2: Checking for duplicate IDs
+1. Used **Group By** on `ID` with a **Count Rows** operation to see how many times each ID appears.
+2. Filtered the Count column to show only values greater than 1.
+
+![Group By on ID with row count](images/02-group-by-id.png)
+*Grouping rows by ID to count occurrences.*
+
+![IDs appearing more than once](images/03-duplicate-ids.png)
+*Filtering the count column reveals the duplicate IDs.*
+
+**Finding:** X IDs appear more than once.
