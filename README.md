@@ -25,6 +25,9 @@ The raw dataset contains order-level sales records with the following columns:
 
 The dataset is **messy** and needs cleaning before any analysis can be done. The issues found and the fixes applied are documented step by step below.
 
+![Raw data loaded in Power Query](images/01-raw-data.png)
+*Raw data as loaded into Power Query, before any cleaning.*
+
 ## Data Cleaning Log
 
 *(To be filled in as the cleaning progresses.)*
